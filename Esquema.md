@@ -124,7 +124,6 @@ diferentes nodos, lanza una copia de cada variable usada en la función
 a cada tarea. Algunas veces una variable necesita ser compartida por 
 varias tareas, o entre tareas y el programa controlador.
 
-
 	1.5. Problemas con la minería de datos con mucha información -> BigData
 
 3. Big Data
@@ -132,8 +131,6 @@ varias tareas, o entre tareas y el programa controlador.
 	3.1 ¿Qué es Big Data?	
 	
 	3.2. Minería de datos con Big Data
-	
-	
 	
 4. Aprendizaje de Máquina
 
