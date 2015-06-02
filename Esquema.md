@@ -100,8 +100,29 @@ Receta de cocina (Cookbook):
 
 	1.4. Herramientas
 	
-- Spark:
+- Spark: 
 
+LOGO DE SPARK
+
+Apache Spark es un rápido sistema de cómputos en clúster de propósito 
+general. Provee APIs de alto nivel en Java, Scala y Python (Pronto R),
+y un motor optimizado que soporta gráficos de ejecución generales. También
+soporta un muy buen conjunto de herramientas de alto nivel incluyendo
+Spark SQL para SQL y procesado de datos estructurados, MLlib para aprendizaje
+de máquina (Machine learning), GraphX para procesado de grafos, y Spark
+Streaming.
+
+La mayor abstracción que Spark provee es un RDD (Resilient distributed
+dataset) en español (Conjunto de datos resilientes distribuidos) que es
+una colección de elementos particionados a lo largos de los nodos del
+clúster que pueden ser operados en paralelo. 
+
+La segunda abstracción en Spark son las variables compartidas (shared
+variables9 que pueden ser usadas en operaciones paralelas. Por defecto,
+cuando Spark corre una función en paralelo como una serie de tareas en
+diferentes nodos, lanza una copia de cada variable usada en la función
+a cada tarea. Algunas veces una variable necesita ser compartida por 
+varias tareas, o entre tareas y el programa controlador.
 
 
 	1.5. Problemas con la minería de datos con mucha información -> BigData
@@ -111,6 +132,8 @@ Receta de cocina (Cookbook):
 	3.1 ¿Qué es Big Data?	
 	
 	3.2. Minería de datos con Big Data
+	
+	
 	
 4. Aprendizaje de Máquina
 
